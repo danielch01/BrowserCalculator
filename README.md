@@ -1,2 +1,5 @@
 # Calculator You Can Use on Browser
-![](assets/calcimg.png | width = 100)
+
+Based on the course from Codeacademy.com
+
+![](assets/calcimg.png)
