@@ -1,2 +1,2 @@
 # Calculator You Can Use on Browser
-!(assets/calcimg.png)
+![alt text](assets/calcimg.png)
