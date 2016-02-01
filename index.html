@@ -1,42 +1,36 @@
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">  
-		<style type="text/css">
-			 div {
-			 	display: inline-block;
-			 	margin: 10px;
-			 	padding: 25px;
-			 	background-color: red;
-			 }
-		</style>
-	</head>
-
-	<body>
-		<div id="num">0</div>
-		<div id="num">1</div>
-		<div id="num">2</div>
-		<br />
-		<div id="num">3</div>
-		<div id="num">4</div>
-		<div id="num">5</div>
-		<br />
-		<div id="num">6</div>	
-		<div id="num">7</div>
-		<div id="num">8</div>
-		<br />
-		<div id="num">9</div>
-		<br />
-		<div id="operator">+</div>
-		<div id="operator">-</div>
-		<div id="operator">*</div>
-		<div id="operator">/</div>
-		<div id="equals"><p>=</p></div>
-		<div id="clear"><p>CLR</p></div>
-
-		<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<title>Calculator</title>
+		<link rel="stylesheet" href="calculator.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 		<script src="calculator.js"></script>
+	</head>
+	<body>
+		<div id="calculator">
+			<div id="total">
+			</div>
+			<div id="operators">
+				<a>+</a>
+				<a>-</a>
+				<a>/</a>
+				<a>*</a>
+				<a id="equals">=</a>
+			</div>
+			<div id="numbers">
+				<a>1</a>
+				<a>2</a>
+				<a>3</a>
+				<a>4</a>
+				<a>5</a>
+				<a>6</a>
+				<a>7</a>
+				<a>8</a>
+				<a>9</a>
+				<a id="clear">C</a>
+				<a>0</a>
+				<a id="clearall">AC</a>
+			</div>
+		</div>
 	</body>
 </html>
